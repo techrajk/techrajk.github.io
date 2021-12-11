@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-06T00:03:59+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">RK’s Tech-Point</title><subtitle>Technology Simplified,  First</subtitle><entry><title type="html">Understanding Lottery Ticket Hypothesis</title><link href="http://localhost:4000/Understanding-Lottery-Ticket-Hypothesis/" rel="alternate" type="text/html" title="Understanding Lottery Ticket Hypothesis" /><published>2019-09-20T00:00:00+05:30</published><updated>2019-09-20T00:00:00+05:30</updated><id>http://localhost:4000/Understanding%20Lottery%20Ticket%20Hypothesis</id><content type="html" xml:base="http://localhost:4000/Understanding-Lottery-Ticket-Hypothesis/">&lt;p&gt;&lt;img src=&quot;/images/lottery.jpg&quot; alt=&quot;lottery&quot; title=&quot;lottery&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On 7th of this month I attended a meetup at &lt;a href=&quot;https://www.silversparrow.com&quot;&gt;SilverSparrow&lt;/a&gt;.The speaker Megh Makwana during his presentation on Mixed Precision Training made a reference to a paper titled “Lottery Ticket Hypothesis”.The title and its relevance to theoritical understanding of deep learning pushed me to go through it.&lt;/p&gt;
+
+&lt;p&gt;Here my take on this paper.Just a disclaimer that this is my first hand account and by no means written by Phd. bent of mind. :)&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Those who have some knowledge about Neural Networks understood the importance of Initilization(of weights) for sucessfully training a model. Sometimes your choice of weight vector would converge early and sometimes it don’t no matter how long you train it.The question why they(Neural Network) behave in this manner is still baffling both the deep learning reseachers and coders.More on this in later half of the post,till then keep horses of your mind reined in.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-the-name-lottery-ticket-&quot;&gt;Why the name “Lottery Ticket” ?&lt;/h2&gt;
+
+&lt;p&gt;The authors of this paper Micheal J and Carbin of CSAIL,MIT tried to draw an analogy between initialisation of NN to buying a bag of lottery tickets and the &lt;strong&gt;“winning ticket”&lt;/strong&gt; being the model that is successfully trained.
+You bought a bag full of every possible ticket that has the chance of winning the lottery and only one of them is going to be the winning ticket.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-the-paper-is-trying-to-say-or-establish-&quot;&gt;What the paper is trying to say or establish ?&lt;/h2&gt;
+&lt;p&gt;Simply put it states that there exists a smaller sub-network within the larger network that is capable of being trained on new data to make predictions that doesn’t departs too far from the original network, provided weights are reset (not reinitilised) to the state that the original network had when the training begins.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;roadblocks&quot;&gt;Roadblocks&lt;/h2&gt;
+&lt;p&gt;The paper used a brute-force approach to identify ‘subnetworks’ and doesn’t provide a clear framework for identifying them in a larger network.&lt;br /&gt;
+Also some warmup strategy is to be used in large and deep networks.&lt;/p&gt;
+
+&lt;h2 id=&quot;future-directions&quot;&gt;Future Directions&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+If you want to add something or could explain it better some other way , contact me at tech DOT rajk AT gmail.com, I would update this if found interesting.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-text=&quot;Check out this AWESOME article&quot; data-lang=&quot;en&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Data Science Experience (DSX)</title><link href="http://localhost:4000/IBM-DataScienceExperience/" rel="alternate" type="text/html" title="Data Science Experience (DSX)" /><published>2017-11-20T00:00:00+05:30</published><updated>2017-11-20T00:00:00+05:30</updated><id>http://localhost:4000/IBM-DataScienceExperience</id><content type="html" xml:base="http://localhost:4000/IBM-DataScienceExperience/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/dsx.png&quot; alt=&quot;DSX&quot; /&gt;&lt;br /&gt;
+At DataWorks Summit this year, two giants of IT world &lt;em&gt;IBM&lt;/em&gt; and &lt;em&gt;Hortonworks&lt;/em&gt; announced their resolve to develop a tool that would harness enormous amount of data stashed in hadoop installations across different verticals to be utilised to predict insights into it (the data).
+&lt;br /&gt;
+&lt;img src=&quot;http://localhost:4000/images/IBM.png&quot; alt=&quot;IBM&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/partner.jpeg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/images/hw.jpeg&quot; alt=&quot;Hortonworks&quot; /&gt;
+&lt;br /&gt;
+Though it was not a path breaking announcement as Data Scientists (or so called Data Charmers) were paid hefty amounts for this very reason.&lt;/p&gt;
+
+&lt;p&gt;Recently, IBM released DSX, a unified tool that addresses entire process of Data Science and Machine learning.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-dsx&quot;&gt;&lt;a href=&quot;#header-2&quot;&gt;&lt;/a&gt;Why DSX?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;“Data is the king and Queen”&lt;/strong&gt;  was the moto of every organization from the days of Industrial revolution. Companies had preserved this asset in Datawarehouses but often a big chunk of it remained untapped due to limited processing power at their disposal.&lt;/p&gt;
+
+&lt;p&gt;But almost a decade ago, with the advent of hadoop this has changed and now big amount of data can be processed using commodity hardware in reasonable time. 
+&lt;img src=&quot;http://localhost:4000/images/hadoop.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Earlier, Data Scientists build models using only a subset of data to learn patterns in it (small data, small learning) but using the compute provided by hadoop they can use big data to learn more accurate patterns in it (Big Data, Big Learning).So the combination of Data Science and Big data was inevitable that is why the leader in data analytics and Science,IBM and the prominet player of big data world, Hortonworks joined hands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Data is the new oil”&lt;/strong&gt; is the moto of organisation(s) these days &lt;strong&gt;:):)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-dsx-&quot;&gt;&lt;a href=&quot;#header-2&quot;&gt;&lt;/a&gt;What is DSX ?&lt;/h2&gt;
+
+&lt;p&gt;IBM Data Science Experience is an analytics environment that includes popular tools such as Jupyter Notebook, R studio on top of spark-as-a-service. Currently, Python, R, Spark is supported but efforts are going on to include Zeppelin popular tools among analytics community.&lt;/p&gt;
+
+&lt;p&gt;Using DSX one can abstract the complexities faced to intergate hetrogeneous tools to buid and deploy machine learning models. It has vibrant spark engine for processing the data, an object store to store computed models and seamless deployment of them from development into production.&lt;/p&gt;
+
+&lt;p&gt;It can also be used as a collaborating tool as different devlopres working on the same project can exchage ideas and code without any pain.Also,cognitive capabilities of the platform guides an inexperienced user to learn,design,develop and deploy ML models seamlessly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;D&lt;/strong&gt;ata &lt;strong&gt;S&lt;/strong&gt;cience E&lt;strong&gt;X&lt;/strong&gt;perience is offered in three variants:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;DSX Cloud&lt;/strong&gt; ,cloud based version&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DSX Local&lt;/strong&gt; On-premise and&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DSX Desktop&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Developers can develop on-premise and throw their code into production in cloud i.e develop scikit or R model locally using some data and score this model on some new data in the cloud.&lt;/p&gt;
+
+&lt;p&gt;Versioning capabilities built-in into DSX helps to put your model into continuous training loop i.e your model can adjust to the new incoming data and realign itself without hampring your end-users and performance.&lt;/p&gt;
+
+&lt;p&gt;Data store is not locked to one vendor.One can also use AWS S3 or some other cloud offering as well as MySQL.&lt;/p&gt;
+
+&lt;p&gt;Lot of community driven code(Jupyter Notebooks) and tutorials are also provided to master the craft of predicting.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-dsx-&quot;&gt;&lt;a href=&quot;#header-2&quot;&gt;&lt;/a&gt;How DSX ?&lt;/h2&gt;
+
+&lt;p&gt;To learn more on DSX&lt;/p&gt;
+
+&lt;p&gt;1.Sign in for free trail(Limited Period)of DSX &lt;a href=&quot;https://datascience.ibm.com&quot;&gt;here&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;2.Explore various tutorials and code books available at the dashboard (once you log in).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclimer:&lt;/strong&gt; IBM and Hortonworks are registered trademarks of their respective owners.Images used in this post is sourced from Internet.&lt;/p&gt;</content><author><name></name></author><summary type="html">At DataWorks Summit this year, two giants of IT world IBM and Hortonworks announced their resolve to develop a tool that would harness enormous amount of data stashed in hadoop installations across different verticals to be utilised to predict insights into it (the data). Though it was not a path breaking announcement as Data Scientists (or so called Data Charmers) were paid hefty amounts for this very reason. Recently, IBM released DSX, a unified tool that addresses entire process of Data Science and Machine learning.</summary></entry></feed>

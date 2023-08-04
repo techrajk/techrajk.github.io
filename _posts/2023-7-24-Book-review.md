@@ -3,7 +3,7 @@ layout: post
 title: Book Review: Evolutionary Deep Learning by Micheal Lanham (Manning Publications , 2023) 
 comments: false
 ---
-![book](/images/edl.jpg "edl-book")
+
 A while ago, I read a book that was provided to me by Manning Publications (Thanks Adriana Sabo & Ana Romac ) titled <b>“Evolutionary Deep Learning” by Micheal Lanham</b>, under MEAP review.
 <br />
 I am writing this review based on my understanding on an upcoming field in AI. It is by no means an expert advice or a shout-out for sale :)
